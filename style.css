@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 90vh;
+	width: 100vw;
+	background: var(--dasar);
+}
+
+:root{
+	--dasar: #CCCCFF;
+	--bayangan: inset 0 0 3vmin rgba(0,0,0,0.7);
+	--kedua: #9999FF;
+	--ketiga: #6666FF;
+	--terakhir: #3333FF;
+}
+
+#canvas {
+	height: 80vmin;
+	width: 80vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+	background: var(--dasar);
+}
+
+#lingkaran1, #lingkaran2, #lingkaran3 {
+	height: 70vmin;
+	width: 70vmin;
+	background: var(--kedua);
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: var(--bayangan);
+	overflow: hidden;
+}
+
+#rumah {
+	height: 20vmin;
+	width: 20vmin;
+	background: var(--dasar);
+	right: 10vmin;
+	bottom: 0;
+}
+
+#jendela {
+	height: 10vmin;
+	width: 8vmin;
+	background: #fff;
+	left: 4vmin;
+	top: 4vmin;
+	box-shadow: 0 0 2vmin #fff;
+}
+
+#atap {
+	width: 0;
+	height: 0;
+	border: 10vmin solid rgba(0,0,0,0);
+	border-width: 10vmin 18vmin 10vmin 18vmin;
+	border-bottom-color: var(--dasar);
+	right: 2vmin;
+	bottom: 18vmin;
+}
+
+#lingkaran2 {
+	background: var(--ketiga);
+	width: 50vmin;
+	height: 50vmin;
+	left: 30vmin;
+}
+
+.pohon {
+	height: 17vmin;
+	width: 1vmin;
+	background: var(--kedua);
+	bottom: 0;
+	left: 5vmin;
+}
+
+#p1 {
+	left: 12vmin;
+	height: 14vmin;
+}
+
+.daun {
+	height: 0;
+	width: 0;
+	border: 1px solid rgba(0,0,0,0);
+	border-bottom-color: var(--kedua);
+	border-width: 15vmin 3vmin;
+	bottom: 12vmin;;
+	left: 2.5vmin;
+}
+
+#d1 {
+	left: 9.5vmin;
+	bottom: 8vmin;
+}
+
+#lingkaran3 {
+	height: 30vmin;
+	width: 30vmin;
+	background: var(--terakhir);
+	left: 30vmin;
+}
+
+.bintang {
+	width: 2vmin;
+	height: 2vmin;
+	background: #fff;
+	left: 12vmin;
+	top: 12vmin;
+	transform: rotate(45deg);
+	box-shadow: 0 0 2vmin rgba(255, 255, 255, 1);
+}
+
+#b2 {
+  left: 16vmin;
+	top: 7vmin;
+	width: 1.5vmin;
+	height: 1.5vmin;
+}
+
+#b3 {
+	left: 22vmin;
+	top: 15vmin;
+	width: 1vmin;
+	height: 1vmin;
+}
+
+.awan {
+	height: 5vmin;
+	width: 30vmin;
+	background: #eee;
+	border-radius: 2.5vmin;
+	top: 20vmin;
+}
+
+#a1 {
+	top: 15vmin;
+	width: 25vmin;
+	border-radius: 2.5vmin 2.5vmin 0 0;
+	left: 2.5vmin;
+}
+
+#a2 {
+	top: 8vmin;
+	width: 15vmin;
+	height: 15vmin;
+	left: 5vmin;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
